@@ -20,7 +20,7 @@ function Header() {
                         Courses
                     </button>
                     {isCoursesOpen && (
-                        <div className="absolute left-0 top-10 z-10 w-48 rounded-lg border border-[#E4E4E7] bg-white py-2 shadow-lg">
+                        <div className="absolute left-0 top-10 z-10 w-48 rounded-lg border border-[#E4E4E7] bg-white py-2 shadow-lg">        
                             <ul>
                                 <li><button className="cursor-pointer block w-full px-4 py-2 text-left text-[#18181B] hover:bg-[#F5F7FF] hover:text-[#6366F1]">Artificial Intelligence</button></li>
                                 <li><button className="cursor-pointer block w-full px-4 py-2 text-left text-[#18181B] hover:bg-[#F5F7FF] hover:text-[#6366F1]">Business</button></li>
@@ -40,12 +40,12 @@ function Header() {
                 </div>
                 <div className="-mr-20 flex items-baseline gap-[20px]">
                 <div className="flex items-center gap-4">
-                    <button className="cursor-pointer font-medium text-[#18181B] hover:text-[#6366F1] dark:text-[#F4F4F5] dark:hover:text-[#A78BFA]">
+                    <button className="cursor-pointer font-medium text-[#18181B] hover:text-[#6366F1] dark:text-[#F4F4F5] dark:hover:text-[#6366F1]">
                         Sign In
                     </button>
                 </div>
                 <div>
-                    <button onClick={() => switchDarkMode()} className="text-xl cursor-pointer">
+                    <button onClick={() => switchDarkMode()} className="cursor-pointer">
                         {isDarkMode ? "☀️" : "🌙"}
                     </button>
                 </div>

@@ -5,6 +5,7 @@ import Hero from './components/Hero'
 import TopUniversities from './components/topUniversities'
 import Courses from './components/Courses'
 import Tutors from './components/Tutors'
+import Feedbacks from './components/Feedbacks'
 
 function App() {
   return(
@@ -14,6 +15,7 @@ function App() {
       <TopUniversities/>
       <Courses/>
       <Tutors/>
+      <Feedbacks/>
     </>
   )
 }

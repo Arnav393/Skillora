@@ -6,6 +6,7 @@ import TopUniversities from './components/topUniversities'
 import Courses from './components/Courses'
 import Tutors from './components/Tutors'
 import Feedbacks from './components/Feedbacks'
+import Footer from './components/Footer'
 
 function App() {
   return(
@@ -16,6 +17,7 @@ function App() {
       <Courses/>
       <Tutors/>
       <Feedbacks/>
+      <Footer/>
     </>
   )
 }
